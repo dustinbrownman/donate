@@ -8,6 +8,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'bootstrap-sass'
 
 group :development do
 	gem 'quiet_assets'
@@ -27,7 +28,7 @@ group :test, :development do
 end
 
 group :development, :production do
-	gem 'boostrap-sass'
+	
 end
 
 

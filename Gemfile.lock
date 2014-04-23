@@ -29,8 +29,6 @@ GEM
     arel (4.0.2)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    boostrap-sass (0.0.2)
-      bootstrap-sass
     bootstrap-sass (3.1.1.1)
       sass (~> 3.2)
     builder (3.1.4)
@@ -153,7 +151,7 @@ PLATFORMS
 
 DEPENDENCIES
   binding_of_caller
-  boostrap-sass
+  bootstrap-sass
   capybara
   coffee-rails
   factory_girl_rails
