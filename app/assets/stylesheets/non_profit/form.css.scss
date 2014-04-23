@@ -1,0 +1,9 @@
+form.new_non_profit {
+	div {
+		@extend .form-group;
+
+		input {
+			@extend .form-control;
+		}
+	}
+}
