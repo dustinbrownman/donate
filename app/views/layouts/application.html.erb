@@ -8,7 +8,12 @@
 </head>
 <body>
 	<div class="container">
-
+		<% if flash[:notice] %>
+			<div class="alert-success">
+				<p><%= flash[:notice] %></p>
+			</div>
+		<% end %>
+		
 		<%= yield %>
 		<%= debug("#{params['controller']}\##{params['action']}") %>
 	</div>
